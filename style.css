@@ -1003,3 +1003,24 @@ p.event-date {
 .wax-seal span {
   font-size: 18px !important;
 }
+
+/* Increase wedding date size on mobile */
+@media (max-width: 600px) {
+  .date-line {
+    font-size: 22px !important;
+    letter-spacing: 1px !important;
+    white-space: nowrap;
+  }
+
+  .date-line strong {
+    font-size: 1.15em !important;
+  }
+}
+
+/* Smaller phones */
+@media (max-width: 400px) {
+  .date-line {
+    font-size: 17px !important;
+    letter-spacing: 0 !important;
+  }
+}
