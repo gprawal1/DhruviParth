@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8eeeb">
+  <meta name="description" content="A heartfelt wedding invitation celebrating Dhruvi and Parth on 26 November 2026 in Lonavala.">
+  <title>Dhruvi & Parth — Wedding Invitation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  
+<!-- Envelope Opening Screen -->
+<div class="envelope-intro" id="envelopeIntro" role="dialog" aria-modal="true" aria-labelledby="envelopeTitle">
+  <div class="envelope-content">
+    <button class="envelope-language-toggle" id="introLanguageToggle" type="button" aria-label="Switch to Hindi">हिंदी</button>
+    <p class="envelope-hindi" lang="hi">॥ श्री गणेशाय नमः ॥</p>
+
+    <div class="envelope-scene">
+      <div class="envelope">
+        <div class="envelope-back"></div>
+
+        <div class="envelope-letter">
+          <span class="letter-heart">♥</span>
+          <span class="letter-names">Dhruvi <i>&</i> Parth</span>
+          <span class="letter-date">26 · 11 · 2026</span>
+        </div>
+
+        <div class="envelope-front"></div>
+        <div class="envelope-flap"></div>
+
+        
+<button
+  class="wax-seal"
+  id="openInvitation"
+  type="button"
+  aria-label="Open Dhruvi and Parth's wedding invitation"
+>
+  D<span>♥</span>P
+</button>
+
+      </div>
+    </div>
+
+    <h1 class="envelope-title" id="envelopeTitle" data-en="You're Invited" data-hi="सप्रेम आमंत्रण">You're Invited</h1>
+    <p class="envelope-subtitle" data-en="Dhruvi & Parth's Wedding Celebration" data-hi="ध्रुवी और पार्थ के शुभ विवाह का निमंत्रण">
+      Dhruvi & Parth's Wedding Celebration
+    </p>
+
+    <p class="envelope-hint" data-en="A little love is waiting inside" data-hi="अंदर खुशियों भरा एक संदेश है">A little love is waiting inside</p>
+  </div>
+</div>
+
+  <div class="petal-layer" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Dhruvi and Parth home">D <span>♥</span> P</a>
+
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#story" data-en="Our Story" data-hi="हमारी कहानी">Our Story</a>
+      <a href="#events" data-en="Events" data-hi="समारोह">Events</a>
+      <a href="#gallery" data-en="Gallery" data-hi="तस्वीरें">Gallery</a>
+      <a href="#venue" data-en="Venue" data-hi="स्थान">Venue</a>
+    </nav>
+
+    <div class="header-actions">
+      <button id="languageToggle" class="language-toggle" type="button" aria-label="Switch to Hindi">हिंदी</button>
+      <button id="musicToggle" class="music-toggle" type="button" aria-pressed="false" aria-label="Toggle ambient music">
+        <span class="music-icon" aria-hidden="true">♫</span>
+        <span id="musicLabel">Music off</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-glow"></div>
+      <div class="hero-copy">
+        <p class="eyebrow" data-en="WITH THE BLESSINGS OF OUR FAMILIES" data-hi="अपने परिवारों के आशीर्वाद सहित">WITH THE BLESSINGS OF OUR FAMILIES</p>
+        <p class="ganesh" lang="hi">॥ श्री गणेशाय नमः ॥</p>
+        <h1><span>Dhruvi</span><em>&</em><span>Parth</span></h1>
+        <p class="hero-subtitle" data-en="invite you to celebrate their wedding" data-hi="आपको अपने शुभ विवाह में सादर आमंत्रित करते हैं">invite you to celebrate their wedding</p>
+        <p class="hero-hindi" lang="hi">दो दिल, एक खूबसूरत सफ़र।</p>
+        <div class="ornament" aria-hidden="true"> ✧ </div>
+        <p class="date-line">THURSDAY <strong>26</strong> NOVEMBER <strong>2026</strong></p>
+       
+
+      </div>
+      <div class="hero-art" aria-label="Decorative floral illustration">
+        <div class="sun-disc"></div>
+        <div class="flower flower-one">✿</div><div class="flower flower-two">✾</div><div class="flower flower-three">❀</div>
+        <div class="leaf leaf-one"></div><div class="leaf leaf-two"></div><div class="leaf leaf-three"></div>
+        <span class="art-caption" data-en="A promise of forever" data-hi="साथ निभाने का वादा">A promise of forever</span>
+      </div>
+      <div class="scroll-note"><span></span><span data-en="SCROLL TO CELEBRATE" data-hi="आगे बढ़ें">SCROLL TO CELEBRATE</span></div>
+    </section>
+
+    <section class="countdown-section section-pad" aria-labelledby="countdownTitle">
+      <p class="eyebrow" data-en="THE BIG DAY IS APPROACHING" data-hi="शुभ दिन आने वाला है">THE BIG DAY IS APPROACHING</p>
+      <h2 id="countdownTitle" data-en="Counting down to forever" data-hi="नई शुरुआत की उलटी गिनती">Counting down to forever</h2>
+      <div class="countdown" id="countdown" aria-live="polite">
+        <div class="time-box"><strong id="days">—</strong><span data-en="Days" data-hi="दिन">Days</span></div>
+        <div class="time-box"><strong id="hours">—</strong><span data-en="Hours" data-hi="घंटे">Hours</span></div>
+        <div class="time-box"><strong id="minutes">—</strong><span data-en="Minutes" data-hi="मिनट">Minutes</span></div>
+        <div class="time-box"><strong id="seconds">—</strong><span data-en="Seconds" data-hi="सेकंड">Seconds</span></div>
+      </div>
+      <p class="countdown-note" data-en="Until Dhruvi & Parth begin their next chapter." data-hi="ध्रुवी और पार्थ के नए जीवन की शुरुआत तक।">Until Dhruvi & Parth begin their next chapter.</p>
+    </section>
+
+    <section class="story-section section-pad" id="story">
+      <div class="section-kicker"><span>01</span><span data-en="A LITTLE LOVE, A LOT OF JOY" data-hi="ढेर सारा प्यार और खुशियाँ">A LITTLE LOVE, A LOT OF JOY</span></div>
+      <div class="story-grid">
+        <div class="story-visual">
+          <div class="photo-frame main-frame">
+            <img
+              src="Images/1.jpeg"
+              alt="Dhruvi and Parth"
+              class="couple-photo"
+              />
+          </div>
+          
+          <div class="tiny-flower">✿</div>
+        </div>
+        <div class="story-copy">
+          <p class="eyebrow" data-en="TWO FAMILIES, ONE BEAUTIFUL BEGINNING" data-hi="दो परिवार, एक सुंदर शुरुआत">TWO FAMILIES, ONE BEAUTIFUL BEGINNING</p>
+          <h2 data-en="Together is a beautiful place to be." data-hi="साथ होना ही सबसे खूबसूरत एहसास है।">Together is a beautiful place to be.</h2>
+          <p data-en="With the love and blessings of our families, we're beginning a new chapter. We'd be delighted to have you beside us as we celebrate the moments, traditions and memories that make this day unforgettable." data-hi="अपने परिवारों के प्यार और आशीर्वाद के साथ, हम जीवन के एक नए अध्याय की शुरुआत कर रहे हैं। इस खास दिन की खुशियों, परंपराओं और यादों में आपकी उपस्थिति हमारे लिए अनमोल होगी।">With the love and blessings of our families, we're beginning a new chapter. We'd be delighted to have you beside us as we celebrate the moments, traditions and memories that make this day unforgettable.</p>
+          <p class="hindi-paragraph" lang="hi">आपकी उपस्थिति हमारे इस शुभ अवसर को और भी खास बना देगी। सपरिवार पधारकर हमें अपना आशीर्वाद दें।</p>
+          <div class="signature">With love, Dhruvi & Parth</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="events-section section-pad" id="events">
+      <div class="section-heading">
+        <div class="section-kicker"><span>02</span><span data-en="JOIN US FOR THE FESTIVITIES" data-hi="शुभ समारोहों में शामिल हों">JOIN US FOR THE FESTIVITIES</span></div>
+        <h2 data-en="The wedding celebrations" data-hi="शुभ मंगल कार्यक्रम">The wedding celebrations</h2>
+        <p data-en="Every ritual, every laugh, every memory — we'd love to celebrate with you." data-hi="हर रस्म, हर मुस्कान और हर याद — आइए, मिलकर खुशियाँ मनाएँ।">Every ritual, every laugh, every memory — we'd love to celebrate with you.</p>
+      </div>
+      <div class="events-grid">
+        <article class="event-card">
+          <div class="event-top"><span class="event-number">01</span><span class="event-symbol">ॐ</span></div>
+          <p class="event-date" data-en="SUNDAY · 22 NOVEMBER 2026" data-hi="रविवार · 22 नवंबर 2026">SUNDAY · 22 NOVEMBER 2026</p>
+          <h3 data-en="Vinayak Pujan & Paath" data-hi="विनायक पूजन / पाठ">Vinayak Pujan & Paath</h3>
+          <p class="event-hindi" lang="hi">विनायक पूजन / पाठ</p>
+          <div class="event-detail"><span>◷</span><span data-en="9:30 AM" data-hi="प्रातः 9:30 बजे">9:30 AM</span></div>
+          <div class="event-detail"><span>⌖</span><span data-en="Chakan, Pune" data-hi="चाकण, पुणे">Chakan, Pune</span></div>
+        </article>
+        <article class="event-card">
+          <div class="event-top"><span class="event-number">02</span><span class="event-symbol">✿</span></div>
+          <p class="event-date" data-en="WEDNESDAY · 25 NOVEMBER 2026" data-hi="बुधवार · 25 नवंबर 2026">WEDNESDAY · 25 NOVEMBER 2026</p>
+          <h3 data-en="Haldi" data-hi="हल्दी">Haldi</h3>
+          <p class="event-hindi" lang="hi">हल्दी समारोह</p>
+          <div class="event-detail"><span>◷</span><span data-en="10:00 AM" data-hi="प्रातः 10:00 बजे">10:00 AM</span></div>
+         <div class="event-detail">
+  <span>⌖</span>
+  <span data-en="Dress Code: Shades of Yellow" data-hi="ड्रेस कोड: पीले रंग के शेड्स">
+    Dress Code: Shades of Yellow
+  </span>
+</div>
+          <div class="event-detail"><span>⌖</span><span data-en="Govinda Resort, Lonavala" data-hi="स्थान की पुष्टि बाकी">Govinda Resort, Lonavala</span></div>
+        </article>
+        <article class="event-card">
+          <div class="event-top"><span class="event-number">03</span><span class="event-symbol">♫</span></div>
+          <p class="event-date" data-en="WEDNESDAY · 25 NOVEMBER 2026" data-hi="बुधवार · 25 नवंबर 2026">WEDNESDAY · 25 NOVEMBER 2026</p>
+          <h3 data-en="Sangeet" data-hi="संगीत">Sangeet</h3>
+          <p class="event-hindi" lang="hi">संगीत संध्या</p>
+          <div class="event-detail"><span>◷</span><span data-en="6:00 PM onwards" data-hi="शाम 6:00 बजे से">6:00 PM onwards</span></div>
+          <div class="event-detail"><span>⌖</span><span data-en="Govinda Resort, Lonavala" data-hi="स्थान की पुष्टि बाकी">Govinda Resort, Lonavala</span></div>
+        </article>
+        <article class="event-card">
+          <div class="event-top"><span class="event-number">04</span><span class="event-symbol">♧</span></div>
+          <p class="event-date" data-en="THURSDAY · 26 NOVEMBER 2026" data-hi="गुरुवार · 26 नवंबर 2026">THURSDAY · 26 NOVEMBER 2026</p>
+          <h3 data-en="Baraat Swagat" data-hi="बारात स्वागत">Baraat Swagat</h3>
+          <p class="event-hindi" lang="hi">बारात स्वागत</p>
+          <div class="event-detail"><span>◷</span><span data-en="7:30 AM" data-hi="प्रातः 7:30 बजे">7:30 AM</span></div>
+          <div class="event-detail"><span>⌖</span><span data-en="Govinda Resort, Lonavala" data-hi="गोविंदा रिसॉर्ट, लोनावला">Govinda Resort, Lonavala</span></div>
+        </article>
+        <article class="event-card">
+          <div class="event-top"><span class="event-number">05</span><span class="event-symbol">♡</span></div>
+          <p class="event-date" data-en="THURSDAY · 26 NOVEMBER 2026" data-hi="गुरुवार · 26 नवंबर 2026">THURSDAY · 26 NOVEMBER 2026</p>
+          <h3 data-en="Hast Milap" data-hi="हस्त मिलाप">Hast Milap</h3>
+          <p class="event-hindi" lang="hi">हस्त मिलाप</p>
+          <div class="event-detail"><span>◷</span><span data-en="9:00 AM" data-hi="प्रातः 9:00 बजे">9:00 AM</span></div>
+          <div class="event-detail"><span>⌖</span><span data-en="Govinda Resort, Lonavala" data-hi="गोविंदा रिसॉर्ट, लोनावला">Govinda Resort, Lonavala</span></div>
+        </article>
+        <article class="event-card event-card-featured">
+          <div class="event-top"><span class="event-number">06</span><span class="event-symbol">✧</span></div>
+          <p class="event-date" data-en="THURSDAY · 26 NOVEMBER 2026" data-hi="गुरुवार · 26 नवंबर 2026">THURSDAY · 26 NOVEMBER 2026</p>
+          <h3 data-en="Wedding Reception" data-hi="वेडिंग रिसेप्शन">Wedding Reception</h3>
+          <p class="event-hindi" lang="hi">विवाह रिसेप्शन</p>
+          <div class="event-detail"><span>◷</span><span data-en="6:00 PM" data-hi="शाम 6:00 बजे">6:00 PM</span></div>
+          <div class="event-detail"><span>⌖</span><span data-en="Govinda Resort, Lonavala" data-hi="गोविंदा रिसॉर्ट, लोनावला">Govinda Resort, Lonavala</span></div>
+        </article>
+      </div>
+      <p class="events-footnote" data-en="Please check with the family for any venue updates for the pre-wedding functions." data-hi="विवाह-पूर्व समारोहों के स्थान की पुष्टि के लिए कृपया परिवार से संपर्क करें।">Please check with the family for any venue updates for the pre-wedding functions.</p>
+    </section>
+
+    <section class="gallery-section section-pad" id="gallery">
+      <div class="section-heading">
+        <div class="section-kicker"><span>03</span><span data-en="MOMENTS TO TREASURE" data-hi="यादगार पल">MOMENTS TO TREASURE</span></div>
+        <h2 data-en="A gallery of love" data-hi="प्यार की कुछ झलकियाँ">A gallery of love</h2>
+        
+      </div>
+      <div class="gallery-grid">
+  <button class="gallery-tile tile-large" type="button" data-caption="Dhruvi & Parth — a favourite portrait">
+    <img src="Images/2.jpeg" alt="Dhruvi and Parth portrait" class="gallery-photo">
+  </button>
+
+  <button class="gallery-tile" type="button" data-caption="A little moment of joy">
+    <img src="Images/3.jpeg" alt="A little moment of joy" class="gallery-photo">
+  </button>
+
+  <button class="gallery-tile" type="button" data-caption="Celebrating together">
+    <img src="Images/4.jpeg" alt="Celebrating together" class="gallery-photo">
+  </button>
+
+  <button class="gallery-tile" type="button" data-caption="Memories with family">
+    <img src="Images/5.jpeg" alt="Family memories" class="gallery-photo">
+  </button>
+
+  <button class="gallery-tile" type="button" data-caption="The beginning of forever">
+    <img src="Images/6.jpeg" alt="The beginning of forever" class="gallery-photo">
+  </button>
+</div>
+     
+    </section>
+
+    <section class="venue-section section-pad" id="venue">
+      <div class="venue-card">
+        <div class="venue-copy">
+          <div class="section-kicker"><span>04</span><span data-en="WE CAN'T WAIT TO SEE YOU" data-hi="आपसे मिलने की प्रतीक्षा है">WE CAN'T WAIT TO SEE YOU</span></div>
+          <p class="eyebrow" data-en="THE WEDDING RECEPTION" data-hi="विवाह रिसेप्शन">THE WEDDING RECEPTION</p>
+          <h2>Govinda Resort</h2>
+          <p class="venue-city">Lonavala, Maharashtra</p>
+          <p class="hindi-paragraph" lang="hi">गोविंदा रिसॉर्ट, लोनावला</p>
+          <div class="venue-detail"><span>◷</span><span data-en="Thursday, 26 November 2026 · 6:00 PM" data-hi="गुरुवार, 26 नवंबर 2026 · शाम 6:00 बजे">Thursday, 26 November 2026 · 6:00 PM</span></div>
+          <p class="venue-address" data-en="Near the Mumbai–Pune Highway, Maval, Lonavala, Maharashtra. Please confirm the exact entrance/location with the hosts before travelling." data-hi="मुंबई–पुणे हाईवे के पास, मावल, लोनावला, महाराष्ट्र। यात्रा से पहले मेज़बानों से सटीक प्रवेश-द्वार/स्थान की पुष्टि कर लें।">Near the Mumbai–Pune Highway, Maval, Lonavala, Maharashtra. Please confirm the exact entrance/location with the hosts before travelling.</p>
+          <a class="button button-primary" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/search/?api=1&query=Govinda+Resort+Lonavala" data-en="Get directions ↗" data-hi="रास्ता देखें ↗">Get directions ↗</a>
+        </div>
+        <div class="venue-art" aria-hidden="true">
+          <div class="venue-sun"></div>
+          <div class="mountain mountain-back"></div>
+          <div class="mountain mountain-front"></div>
+          <div class="venue-palms"><span>♧</span><span>♧</span></div>
+          <div class="venue-label">LONAVALA <span>·</span> MAHARASHTRA</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing-section section-pad">
+      <div class="closing-flower" aria-hidden="true">✿</div>
+      <p class="eyebrow" data-en="YOUR PRESENCE IS OUR PRESENT" data-hi="आपकी उपस्थिति ही हमारा उपहार है">YOUR PRESENCE IS OUR PRESENT</p>
+      <h2 data-en="Let's make beautiful memories together." data-hi="आइए, मिलकर खूबसूरत यादें बनाएँ।">Let's make beautiful memories together.</h2>
+      <p lang="hi" class="closing-hindi">सप्रेम आमंत्रण — आपका आशीर्वाद हमारे लिए अनमोल है।</p>
+      <p class="closing-names">Dhruvi <span>♥</span> Parth</p>
+      <p class="closing-date">26 · 11 · 2026</p>
+      <button id="shareButton" class="button button-outline" type="button" data-en="Share the invitation ↗" data-hi="निमंत्रण साझा करें ↗">Share the invitation ↗</button>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand" href="#home">D <span>♥</span> P</a>
+    <p data-en="Made with love for Dhruvi & Parth" data-hi="ध्रुवी और पार्थ के लिए प्यार से बनाया गया">Made with love for Dhruvi & Parth</p>
+    <a href="#home" class="back-top" data-en="Back to top ↑" data-hi="ऊपर जाएँ ↑">Back to top ↑</a>
+  </footer>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Gallery image preview" hidden>
+    <button class="lightbox-close" id="lightboxClose" type="button" aria-label="Close preview">×</button>
+
+    <img id="lightboxImage" src="" alt="Dhruvi and Parth" class="lightbox-image">
+
+    <p id="lightboxCaption">A favourite memory</p>
+</div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <div class="flower-shower" id="flowerShower"></div>
+</body>
+</html>
